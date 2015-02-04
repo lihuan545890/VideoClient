@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/abstime"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:gravity="center"
+	        android:textColor="#ffffff"
+	        android:layout_weight="0.5" />        
+    
+    
+        <LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:gravity="center_horizontal"
+		    android:layout_marginTop="5dip"
+		    android:layout_marginBottom="5dip">
+	    
+		    <TextView
+		    	android:id="@+id/has_played"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_vertical"
+		    	android:textColor="#ffffff"
+		    	android:text="00:00:00"
+		    />
+		    
+		    <SeekBar 
+		    	android:id="@+id/progress_bar"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:paddingLeft="5dip"
+		    	android:paddingRight="5dip"
+		    	android:layout_marginLeft="10dip"
+		    	android:layout_marginRight="10dip"
+		    	android:layout_gravity="center_vertical"
+		    	android:layout_weight="1"
+		    	android:max="86400"
+		    />
+		    
+		    <TextView
+		    	android:id="@+id/duration"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_vertical"
+		    	android:textColor="#ffffff"
+		    	android:text="23:59:59"
+			/>
+		</LinearLayout>
+
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1.2"
+		    android:orientation="horizontal"		    
+		    
+	    	>
+		    
+		    <View 
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        />
+		    
+		    <Button
+		    	android:id="@+id/HisPlay"
+		    	android:layout_width="0dp"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:background="@drawable/selector_pause" 
+		    />
+		    
+		    <View 
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        />
+		    		    
+		    <Button
+		    	android:id="@+id/HisStop"
+		    	android:layout_width="0dp"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:background="@drawable/selector_ctrl02" 
+		    />
+
+		    <View 
+		        android:layout_width="0dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        />		    
+		    
+	    </LinearLayout>        
+        
+</LinearLayout>

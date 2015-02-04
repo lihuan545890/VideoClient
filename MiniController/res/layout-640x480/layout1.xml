@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	    
+
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		>
+		<TableRow
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:paddingTop="10dp">
+		    
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />	
+		    		    
+			<Button android:id="@+id/btn1"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"					
+				android:background="@drawable/selector_ctrl"
+				android:text="1" />
+			<Button android:id="@+id/btn2"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="2" />
+			<Button android:id="@+id/btn3"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="3" />
+			
+			<Button android:id="@+id/btnMult"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="Mult"/>
+			
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />			
+			
+		</TableRow>
+		
+ 		
+		
+		<TableRow
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:paddingTop="10dp">
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />			    
+			<Button android:id="@+id/btn4"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"	
+				android:background="@drawable/selector_ctrl"		
+				android:text="4" />
+			<Button android:id="@+id/btn5"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/selector_ctrl"
+				android:layout_marginLeft="10dp"
+				android:text="5" />
+			<Button android:id="@+id/btn6"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/selector_ctrl"
+				android:layout_marginLeft="10dp"
+				android:text="6" />
+			
+			<Button android:id="@+id/btnAlarm"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/selector_ctrl"
+				android:layout_marginLeft="10dp"
+				android:text="Alarm" />
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />				
+		</TableRow>
+
+		
+				
+		<TableRow
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:paddingTop="10dp">
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />			    
+			<Button android:id="@+id/btn7"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/selector_ctrl"
+				android:text="7" />
+			<Button android:id="@+id/btn8"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="8" />
+			<Button android:id="@+id/btn9"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:layout_weight="1"
+				android:text="9" />	
+			<Button android:id="@+id/btnMultiDigital"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/ctrl"
+				android:text="@string/more" />
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />				
+		</TableRow>
+		<TableRow
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:paddingTop="10dp">
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />			    
+			<Button android:id="@+id/btn0"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"		
+				android:layout_weight="1"		
+				android:background="@drawable/selector_ctrl"
+				android:text="0" />
+			<Button android:id="@+id/btnRec"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="@string/record" />
+			<Button android:id="@+id/btnFN"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="@string/ptz" />
+			
+			<Button android:id="@+id/btnESC"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:background="@drawable/selector_ctrl"
+				android:text="@string/esc" />
+			<View 
+			    android:layout_width="0dp"
+			    android:layout_weight="0.5"
+			    android:layout_height="fill_parent"
+			    />				
+		</TableRow>
+			
+	</TableLayout>
+</LinearLayout>

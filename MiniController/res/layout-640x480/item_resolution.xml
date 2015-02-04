@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout_Item"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:paddingBottom="5dip">
+
+	<TextView 
+	    android:id="@+id/item_text_resolution"
+		android:gravity="center" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#ffffff">
+	    
+	</TextView>
+</RelativeLayout>

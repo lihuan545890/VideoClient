@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"
+    android:orientation="vertical" >
+        
+		        
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:background="@drawable/tab_widget_background"
+		android:orientation="horizontal">
+					
+		 <Button 
+			android:id="@+id/searchButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"   
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true" 
+			android:background="@drawable/menu_search"
+			/>        
+			
+		<TextView 
+		    android:id="@+id/title_device"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true" 
+			android:textColor="#FFFFFF"
+			android:text="设备列表"
+			/>    
+				 
+		 <Button 
+			android:id="@+id/menu_search"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"  
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true" 
+			android:background="@drawable/menu_selection"
+			/>            
+			   
+    </RelativeLayout>
+       
+	   
+	<ListView
+	   android:id="@+id/listView"
+	   android:layout_width="fill_parent"
+	   android:layout_height="0dp"
+	   android:layout_weight="10"/>
+			   
+    
+</LinearLayout>

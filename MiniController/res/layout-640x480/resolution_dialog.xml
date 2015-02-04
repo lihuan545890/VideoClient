@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/downbutton_corner"
+    android:orientation="vertical">
+    
+    <ExpandableListView 
+        android:id="@+id/paramlistview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+		android:layout_gravity="center"
+        />
+ 
+    <RelativeLayout 
+        android:id="@+id/selfdefineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"          
+		android:visibility="gone"
+        >
+        
+        <EditText 
+            android:id="@+id/selfdefineET"
+            android:layout_width="100dp"
+            android:layout_height="35dp" 
+			android:background="@drawable/rounded_edittext"
+            android:layout_alignParentLeft="true"  
+			android:gravity="center_vertical|left"			
+            android:layout_marginLeft="15dp"
+			android:digits="1234567890"			
+            />
+        
+        <TextView 
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+			android:gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp" 
+			android:textColor="@color/white"
+            android:text="Kbps"            
+            />
+        
+    </RelativeLayout> 	   
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <Button 
+            android:id="@+id/confirmBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:background="@drawable/myselection"/>
+        
+         <Button 
+            android:id="@+id/cancelBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"      
+            android:text="取消"      
+            android:textColor="@color/white"
+            android:background="@drawable/myselection"/>       
+        
+    </RelativeLayout>
+        
+   
+
+</LinearLayout>

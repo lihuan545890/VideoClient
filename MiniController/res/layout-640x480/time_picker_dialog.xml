@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ff00"
+    android:weightSum="0"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/imageViewLoginState"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:text="1" >
+    </Button>
+
+    <Button
+        android:id="@+id/imageViewLoginState1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="2" >
+    </Button>
+
+    <Button
+        android:id="@+id/imageViewLoginState2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="3" >
+    </Button>
+    
+     <Button
+        android:id="@+id/imageViewLoginState2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="4" >
+    </Button>
+    
+      <Button
+        android:id="@+id/imageViewLoginState2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="5" >
+    </Button>
+    
+       <Button
+        android:id="@+id/imageViewLoginState2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:text="6" >
+    </Button>
+
+</LinearLayout>

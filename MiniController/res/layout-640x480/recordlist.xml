@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="71px"
+    >
+    
+<ImageView  
+    android:id="@+id/recPic"
+	android:layout_centerInParent="true"
+    android:layout_alignParentLeft="true"
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:paddingLeft="10dip"  
+    />     
+    
+<TextView    
+    android:id="@+id/recTime"    
+    android:layout_height="wrap_content"   
+    android:layout_width="fill_parent"      
+    android:gravity="center_vertical" 
+    android:layout_centerInParent="true"     
+    android:paddingLeft="70dip" 
+    android:textColor="@color/white"  
+    />     
+    
+<ImageView  
+    android:id="@+id/right_arrow"
+	android:layout_centerInParent="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:paddingRight="10dip"  
+    />
+    
+</RelativeLayout>

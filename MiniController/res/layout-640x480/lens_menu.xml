@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg3">
+    
+    
+    <GridView 
+        android:id="@+id/lens_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="6"
+		android:layout_gravity="center"
+        >
+        
+    </GridView>
+
+</LinearLayout>

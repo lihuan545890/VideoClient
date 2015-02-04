@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/settings"
+		android:visible="true"
+        android:title="nihao"/>
+    
+    <item
+        android:id="@+id/settings1"
+		android:visible="true"
+        android:title="nihao1"/>
+    
+    <item
+        android:id="@+id/settings2"
+		android:visible="true"
+        android:title="nihao2"/>    
+        
+    <item
+        android:id="@+id/settings3"
+		android:visible="true"
+        android:title="nihao3"/>  
+        
+    <item
+        android:id="@+id/settings4"
+		android:visible="true"
+        android:title="nihao4"/>  
+        
+
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bgd"
+    android:layout_height="fill_parent">
+    
+    
+	<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tab_widget_background"
+        android:orientation="horizontal">
+        
+         <Button 
+	        android:id="@+id/menu_ctrl"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"     
+	        android:layout_centerVertical="true"  
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/menu_selection"
+	        />    		
+		
+	    <TextView 
+	        android:id="@+id/remoteCtrl_Title"
+	        android:text="@string/remotectrl"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FFFFFF"
+	        android:layout_centerInParent="true"/>  
+			
+		 <Button 
+			android:id="@+id/chooseDev_ctrl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"  
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true" 
+			android:background="@drawable/menu_devicechoose"
+			/> 			
+        
+    </RelativeLayout>    
+    
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center">
+        
+
+                    
+    </android.support.v4.view.ViewPager>
+    
+    
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"	
+	    android:layout_weight="0.5"    
+	    />
+    
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"	    
+	    android:layout_weight="3"
+	    android:orientation="horizontal"
+	    >
+	
+		<View 
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"	
+		    android:layout_weight="0.5"    
+		    />	
+		    
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">		
+	
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"/>		    
+		    
+			<Button android:id="@+id/btnLEFT"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"		
+				android:layout_weight="2.8"	
+				android:background="@drawable/selector_left"
+		    	/>	
+	
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"/>				
+			
+		</LinearLayout>
+				
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="2.5">
+		    
+  			<Button android:id="@+id/btnUP"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:background="@drawable/selector_up"/>			    
+		    
+			<Button android:id="@+id/btn_MENU"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1.5"			
+				android:background="@drawable/selector_menu"/>
+		
+			<Button android:id="@+id/btn_DOWN"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"	
+				android:background="@drawable/selector_down"/>									    
+		    
+		</LinearLayout>
+	
+		<LinearLayout 
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">		
+	
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"/>		    
+		    
+			<Button android:id="@+id/btn_RIGHT"
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"		
+				android:layout_weight="2.8"	
+				android:background="@drawable/selector_right"
+		    	/>	
+	
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"/>				
+			
+		</LinearLayout>
+	   		           	   
+		<View 
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"	
+		    android:layout_weight="0.5"    
+		    />							
+	
+	</LinearLayout>
+	
+		<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"	
+	    android:layout_weight="0.5"    
+	    />
+	
+</LinearLayout>

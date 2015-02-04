@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能遥控器</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>  
+    <string name="user">用户名</string>
+    <string name="password">密    码</string>
+    <string name="savepass">记住密码</string>
+    <string name="login">登  录</string>
+    <string name="exit">退  出</string>
+    <string name="Refresh">下拉可以刷新</string>
+    <string name="devlist">设备列表</string>
+    <string name="clear">一键清除</string>
+    <string name="search">一键搜索</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="devinfo">设备信息</string>
+    <string name="remotectrl">远程控制</string>
+    <string name="imagesmanage">图像管理</string>
+    <string name="imagesview">图像查看</string>
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="menu">Menu</string>
+    <string name="more">-/--</string>
+    <string name="record">Rec</string>
+    <string name="ptz">Ptz</string>
+    <string name="esc">Esc</string>
+    <string name="alerttitle">请添加设备</string>
+    <string name="please">请输入</string>
+    <string name="starttime">开始时间:</string>
+    <string name="hintstarttime">请选择开始时间</string>
+    <string name="endtime">结束时间:</string>
+     <string name="hintendtime">请选择结束时间</string>
+     <string name="query">查询</string>
+    <string name="okLabel">确定</string>
+    <string name="playback">录像回放</string>
+    <string name="filetype">录像类型:</string>
+    	
+</resources>

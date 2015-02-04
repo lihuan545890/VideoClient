@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"  
+    android:orientation="vertical" >
+    
+<!-- 		<RelativeLayout
+		    android:id="@+id/titleLayout"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:background="@drawable/tab_widget_background"
+			android:orientation="horizontal">    
+    
+			 <Button 
+				android:id="@+id/menu_preview"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"  
+				android:layout_marginLeft="10dp"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true" 
+				android:background="@drawable/myselection1"
+				android:textColor="#ffffff"
+				android:text="菜单"/>             
+				
+			<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true" 
+				android:textColor="#FFFFFF"
+				android:text="实时预览"
+				/>    
+				 
+        </RelativeLayout> -->
+        
+<!-- 		<LinearLayout 
+		    android:id="@+id/LinearDelLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="60dp"
+		    android:orientation="horizontal">
+		    
+		</LinearLayout> -->
+       
+
+		
+			<LinearLayout
+			    android:id="@+id/linear1"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1.0"
+			    android:orientation="horizontal">
+			    
+			    <FrameLayout 
+			        android:id="@+id/famelayout0"
+			        android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1.0">
+			        
+					<com.Activity.Preview4LowVersion
+					    android:id="@+id/surfaceView0"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:visibility="visible"/>			        
+			        
+			        <com.BLL.DrawImageView
+					    android:id="@+id/mDrawIV0"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>	
+           
+			    </FrameLayout>
+			    
+			    <FrameLayout 
+			        android:id="@+id/famelayout1"
+			        android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1.0">
+
+					<com.Activity.Preview4LowVersion
+					    android:id="@+id/surfaceView1"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>			        
+			        			        
+			        <com.BLL.DrawImageView
+					    android:id="@+id/mDrawIV1"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>	
+					    				        	            
+			        
+			    </FrameLayout>		    
+			    
+			    
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:id="@+id/linear2"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1.0"
+			    android:orientation="horizontal">
+			    
+			    <FrameLayout 
+			        android:id="@+id/famelayout2"
+			        android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1.0">
+			        
+					<com.Activity.Preview4LowVersion
+					    android:id="@+id/surfaceView2"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>			        
+			        
+			        <com.BLL.DrawImageView
+					    android:id="@+id/mDrawIV2"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>		    
+
+			    </FrameLayout>
+			    
+			    <FrameLayout 
+			        android:id="@+id/famelayout3"
+			        android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1.0">
+			        
+					<com.Activity.Preview4LowVersion
+					    android:id="@+id/surfaceView3"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>			        
+			        
+			        <com.BLL.DrawImageView
+					    android:id="@+id/mDrawIV3"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"/>	
+			        	            
+			        
+			    </FrameLayout>		    
+			    
+			</LinearLayout>	
+			
+   	   
+		
+<!-- 		<View 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="3"/>
+		
+		<LinearLayout 
+		    android:id="@+id/LinearPannelLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:orientation="horizontal">
+		    
+		    <TextView 
+		        android:id="@+id/ptz"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:onClick="onPtzClick"
+		        android:clickable="true"
+		        android:text="云台"/>
+		    
+			<View  
+			    android:layout_width="1dp"  
+			    android:layout_height="match_parent" 
+			    android:background="?android:attr/listDivider"/>  		    
+		    
+		    <TextView 
+		        android:id="@+id/lens"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:onClick="onLensClick"
+		        android:clickable="true"		        
+		        android:text="镜头"/>
+			    
+		    <TextView 
+		        android:id="@+id/color"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:onClick="onColorClick"
+		        android:clickable="true"			        
+		        android:text="颜色"/>			        
+
+		    <TextView 
+		        android:id="@+id/snapshot"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center" 
+		        android:onClick="onSnapshotClick"
+		        android:clickable="true"		        
+		        android:text="抓拍"/>
+		    
+		    <TextView 
+		        android:id="@+id/ resolution"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:onClick="onResolutionClick"
+		        android:clickable="true"		        
+		        android:text="分辨率"/>
+		    
+		    <TextView 
+		        android:id="@+id/talk"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="#ffffff"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="对讲"/>
+		    
+		    		    		    		    		    		    
+		    
+		</LinearLayout>	 -->	
+
+</LinearLayout>

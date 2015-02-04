@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"
+    android:orientation="vertical" >
+    
+   <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tab_widget_background"
+        android:orientation="horizontal">
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="设备详细信息"
+        
+        android:layout_centerInParent="true"
+        />                         
+        
+     <Button 
+        android:id="@+id/backButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:layout_centerVertical="true"  
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_back"
+        android:text="@string/back"/>      
+       
+    </RelativeLayout>
+           
+    <ListView 
+        android:id="@+id/moreInfo"       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ></ListView>	
+
+    
+</LinearLayout>

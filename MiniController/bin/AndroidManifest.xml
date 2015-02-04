@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minicontroller"
+    android:versionCode="15"
+    android:versionName="1.8" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+    
+    <supports-screens   
+        android:anyDensity="true"  
+        android:largeScreens="true"  
+        android:normalScreens="true"   
+        android:smallScreens="true"   
+        android:resizeable="true"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+        android:hardwareAccelerated="true"
+        android:installLocation="preferExternal"
+         >
+ 
+        <activity
+            android:name="com.Activity.AntsWelcome"
+   			android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.Activity.PTZControl"
+   			android:configChanges="orientation|keyboardHidden|screenSize"
+            > </activity>       
+        <activity android:name="com.Activity.DevInfoActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.Activity.Discovery"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.Activity.PreviewChoose"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.Activity.DevCtrActivity"
+            android:screenOrientation="portrait"></activity>        
+        <activity android:name="com.Activity.RemoteControl"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.Activity.QueryRemoteFile"
+         android:screenOrientation="portrait"></activity> 
+         <activity android:name="com.Activity.PlaybackResult"
+            android:screenOrientation="portrait"></activity> 
+         <activity android:name="com.Activity.HistoryStream"
+ 			android:configChanges="orientation|keyboardHidden|screenSize"           
+            android:screenOrientation="landscape"></activity> 
+         <activity android:name="com.Activity.ImagesManage"
+            android:screenOrientation="portrait"></activity> 
+         <activity android:name="com.Activity.ImageGalleryView"
+            android:screenOrientation="portrait"></activity>             
+         
+         
+            
+    </application>
+
+</manifest>
